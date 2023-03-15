@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    padding-top: 160px;
+    background-image: url(https://i.ibb.co/nDsVKTj/background-image-travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    height: 100vh;
+  
+    font-family: 'Inter', sans-serif
+  }
+  
+  h1 {
+    color: #151718;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    font-family: 'Cinzel';
+  }
+
+  h1 span {
+    color: #DB2777;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+    color: #2C2E2F;
+    opacity: .9;
+  }
+  
+  a {
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #151718;
+  }
+  
+  a:hover, 
+  .btn-primary {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #DB2777;
+    border-radius: 80px;
+    opacity: 1;
+  }
